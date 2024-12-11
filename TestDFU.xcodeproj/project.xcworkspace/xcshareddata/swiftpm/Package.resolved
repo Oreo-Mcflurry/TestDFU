@@ -1,0 +1,33 @@
+{
+  "originHash" : "92196968c17154b069f7a010b65fed80d8e7fa364838f4367e1b900b94ecee3e",
+  "pins" : [
+    {
+      "identity" : "ios-nrf-connect-device-manager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NordicSemiconductor/IOS-nRF-Connect-Device-Manager.git",
+      "state" : {
+        "revision" : "687ea8d66e8465bfb47502e7a6ddbafbf1c438ef",
+        "version" : "1.8.0"
+      }
+    },
+    {
+      "identity" : "swiftcbor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/unrelentingtech/SwiftCBOR.git",
+      "state" : {
+        "revision" : "418dab41b09a5da0d45d7b788c59085979ff4dae",
+        "version" : "0.4.7"
+      }
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weichsel/ZIPFoundation.git",
+      "state" : {
+        "revision" : "02b6abe5f6eef7e3cbd5f247c5cc24e246efcfe0",
+        "version" : "0.9.19"
+      }
+    }
+  ],
+  "version" : 3
+}

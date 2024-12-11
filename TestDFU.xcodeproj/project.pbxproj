@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0BD643C22D0910E900ED4E0D /* iOSMcuManagerLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 0BD643C12D0910E900ED4E0D /* iOSMcuManagerLibrary */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0BD643AF2D09103400ED4E0D /* TestDFU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDFU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD643C22D0910E900ED4E0D /* iOSMcuManagerLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = TestDFU;
 			packageProductDependencies = (
+				0BD643C12D0910E900ED4E0D /* iOSMcuManagerLibrary */,
 			);
 			productName = TestDFU;
 			productReference = 0BD643AF2D09103400ED4E0D /* TestDFU.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 0BD643A62D09103400ED4E0D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0BD643C02D0910E900ED4E0D /* XCRemoteSwiftPackageReference "IOS-nRF-Connect-Device-Manager" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0BD643B02D09103400ED4E0D /* Products */;
 			projectDirPath = "";
@@ -255,6 +264,8 @@
 				DEVELOPMENT_TEAM = Y7F2ZW9QG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = 12312;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = sdafa;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +295,8 @@
 				DEVELOPMENT_TEAM = Y7F2ZW9QG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = 12312;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = sdafa;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +337,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BD643C02D0910E900ED4E0D /* XCRemoteSwiftPackageReference "IOS-nRF-Connect-Device-Manager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NordicSemiconductor/IOS-nRF-Connect-Device-Manager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BD643C12D0910E900ED4E0D /* iOSMcuManagerLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD643C02D0910E900ED4E0D /* XCRemoteSwiftPackageReference "IOS-nRF-Connect-Device-Manager" */;
+			productName = iOSMcuManagerLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BD643A72D09103400ED4E0D /* Project object */;
 }
